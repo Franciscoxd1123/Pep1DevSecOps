@@ -15,7 +15,7 @@ services:
     networks:
       - backend-network
     ports:
-      - "8091:8090"
+      - "8090:8090"
 
   # PostgreSQL service
   postgres:
