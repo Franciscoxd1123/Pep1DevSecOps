@@ -5,7 +5,7 @@ services:
     networks:
       - frontend-network
     ports:
-      - "8081:8090"
+      - "8070:80"
 
   # Backend service
   backend:
