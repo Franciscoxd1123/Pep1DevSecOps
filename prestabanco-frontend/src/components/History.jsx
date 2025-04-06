@@ -103,7 +103,7 @@ const SolicitudesClientes = () => {
             >
               <Box sx={{ bgcolor: 'info.main', p: 2, borderRadius: 1 }}>
                 <Typography variant="h6" sx={{ color: 'white' }}>
-                  Cliente: {cliente}
+                  Cliente : {cliente}
                 </Typography>
               </Box>
 
