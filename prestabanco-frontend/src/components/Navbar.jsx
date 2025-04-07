@@ -61,6 +61,15 @@ const Navbar = () => {
                                     Gestión
                                 </Button>
                             )}
+                            {isExecutive && (
+                                <Button 
+                                    color="inherit"
+                                    component={Link} 
+                                    to="/history"
+                                >
+                                    Historial
+                                </Button>
+                            )}
                         </>
                     )}
                 </Box>
