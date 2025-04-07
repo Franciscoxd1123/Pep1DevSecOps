@@ -10,6 +10,7 @@ import Register from './components/Register';
 import ApplicationStatus from './components/ApplicationStatus';
 import ApplicationManagement from './components/ApplicationManagement';
 import CreditEvaluation from './components/CreditEvaluation';
+import History from './components/History';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
           <Route path="/applications" element={<ApplicationStatus />} />
           <Route path="/managements" element={<ApplicationManagement />} />
           <Route path="/credit/:id" element={<CreditEvaluation />} />
+          <Route path="/history" element={<History />} />
         </Routes>
       </div>
     </Router>
